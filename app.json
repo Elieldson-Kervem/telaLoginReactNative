@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "stepTwo",
+    "slug": "stepTwo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
