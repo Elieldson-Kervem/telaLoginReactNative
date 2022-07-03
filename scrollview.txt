@@ -1,0 +1,36 @@
+ <ScrollView horizontal={true}>
+      <View style={styles.box1}>
+       <Text>OLA</Text>
+      </View>
+      <View style={styles.box2}>
+
+      </View>
+      <View style={styles.box3}>
+        <Text>SSS</Text>
+
+      </View>
+      </ScrollView>
+      
+//importando elementos e usando flatList
+ <Text style={styles.txt}>Bem vindo ao infojobs</Text>  
+     
+    
+         <Funcionario></Funcionario>
+
+
+         //Novas coisas aprendidas
+<Picker selectedValue={carrosSelecionados} onValueChange={(valor,index)=>{
+      changeSelectCarros(valor)
+    }}>
+      
+     {carrosItens}
+    </Picker>
+    <Slider minimumValue={0}  maximumValue={100} value={valor} onValueChange={(valor)=>{
+       setValor(valor)
+    }}/>
+    <Text > Valor:{valor}</Text>
+
+    <Switch value={botao} onValueChange={(valor)=> setbtn (valor)}></Switch>
+     <Text style={{textAlign:'center', fontSize:25}}>
+      status:{String(botao)}
+      </Text>
